@@ -1,5 +1,7 @@
 /*jslint nodejs:true */
 
+exports.version = "0.0.3";
+
 function arbBool() {
 	return Math.random() > 0.5 ? true : false;
 }
