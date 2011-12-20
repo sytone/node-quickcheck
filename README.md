@@ -1,10 +1,10 @@
-quickcheck - Node.js port of the QuickCheck unit test framework
+# quickcheck - Node.js port of the QuickCheck unit test framework
 
-HOMEPAGE
+## HOMEPAGE
 
 [http://www.yellosoft.us/quickcheck](http://www.yellosoft.us/quickcheck)
 
-EXAMPLE
+## EXAMPLE
 
 	$ npm install quickcheck
 	$ node
