@@ -17,6 +17,11 @@
   "engines": {
     "node": "*"
   },
-  "dependencies": {
+  "scripts": {
+    "lint": "jshint ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": ">=2.1.2"
   }
 }
