@@ -63,11 +63,13 @@ function forAll(property) {
 
     if (!property.apply(null, values)) {
       console.log("*** Failed!\n" + values);
-      return;
+      return false;
     }
   }
 
   console.log("+++ OK, passed 100 tests.");
+
+  return true;
 }
 
 exports.forAll = forAll;
