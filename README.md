@@ -15,9 +15,11 @@
 
 [http://www.yellosoft.us/quickcheck](http://www.yellosoft.us/quickcheck)
 
-# DEVELOPMENT
+# INSTALL
 
-## Linting
+    $ npm install quickcheck
+
+# LINT
 
 Keep the code tidy:
 
