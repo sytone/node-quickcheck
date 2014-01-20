@@ -5,16 +5,12 @@
     $ npm test
 
     > quickcheck@0.0.3 test /Users/andrew/Desktop/src/node-quickcheck
-    > node example.js
+    > mocha
 
-    *** Failed!
-    135
-    +++ OK, passed 100 tests.
-    *** Failed!
-    EÓTx
-    T©m?  p?>Ü®Å
-    ô`
-    +++ OK, passed 100 tests.
+
+      ․․․․
+
+      4 passing (6ms)
 
 # HOMEPAGE
 
@@ -30,28 +26,6 @@
 * [Bundler](http://bundler.io/)
 * [Cucumber](http://cukes.info/)
 * [Guard](http://guardgem.org/)
-
-# TESTING
-
-Ensure the example script works as expected:
-
-    $ bundle
-    $ cucumber
-    Feature: Run example tests
-
-      Scenario: Running example tests            # features/run_example_tests.feature:3
-        Given the program has finished           # features/step_definitions/steps.rb:1
-        Then the output is correct for each test # features/step_definitions/steps.rb:5
-
-    1 scenario (1 passed)
-    2 steps (2 passed)
-    0m0.057s
-
-Guard can automatically run testing when the code changes:
-
-    $ bundle
-    $ guard -G Guardfile-cucumber
-    ...
 
 # INSTALL
 

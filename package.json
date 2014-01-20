@@ -18,10 +18,12 @@
     "node": "*"
   },
   "scripts": {
-    "test": "node example.js",
+    "test": "mocha",
     "lint": "jshint ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "~1.17"
+  },
   "devDependencies": {
     "jshint": ">=2.1.2"
   }
