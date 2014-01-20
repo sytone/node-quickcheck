@@ -2,13 +2,18 @@
 
 # EXAMPLE
 
-    $ node example.js 
+    $ npm test
+
+    > quickcheck@0.0.3 test /Users/andrew/Desktop/src/node-quickcheck
+    > node example.js
+
     *** Failed!
-    89
+    135
     +++ OK, passed 100 tests.
     *** Failed!
-    \M0%¿GÕ%'Ç_L5QO"å«oX¸§÷¦Áàl¥LÕ:kV®
-    a¸HâªMåÀÁ-WgÊ÷æíþì9ÃÌgB
+    EÓTx
+    T©m?  p?>Ü®Å
+    ô`
     +++ OK, passed 100 tests.
 
 # HOMEPAGE
