@@ -2,7 +2,11 @@
 
 Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
 
-# EXAMPLE
+# EXAMPLES
+
+* [node-ios7crypt](https://github.com/mcandre/node-ios7crypt/blob/master/test/test.js)
+
+Also see quickcheck's own self-tests:
 
     $ npm test
 
