@@ -1,5 +1,7 @@
 # quickcheck - Node.js port of the QuickCheck unit test framework
 
+Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
+
 # EXAMPLE
 
     $ npm test
