@@ -37,6 +37,16 @@ Also see quickcheck's own self-tests:
 
     $ npm install quickcheck
 
+# SELF-TEST
+
+    $ npm test
+
+Guard can automatically run tests when the code changes:
+
+    $ bundle
+    $ guard
+    ...
+
 # LINT
 
 Keep the code tidy:
