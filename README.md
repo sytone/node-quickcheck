@@ -2,6 +2,10 @@
 
 Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
 
+# INSTALL
+
+    $ npm install quickcheck
+
 # EXAMPLES
 
 * [node-ios7crypt](https://github.com/mcandre/node-ios7crypt/blob/master/test/test.js)
@@ -32,12 +36,11 @@ Also see quickcheck's own self-tests:
 * [Bundler](http://bundler.io/)
 * [Cucumber](http://cukes.info/)
 * [Guard](http://guardgem.org/)
+* [aspelllint](https://github.com/mcandre/aspelllint)
 
-# INSTALL
+# DEVELOPMENT
 
-    $ npm install quickcheck
-
-# SELF-TEST
+## Test
 
     $ npm test
 
@@ -47,11 +50,18 @@ Guard can automatically run tests when the code changes:
     $ guard
     ...
 
-# LINT
+## Lint
 
 Keep the code tidy:
 
     $ npm run-script lint
+
+## Spell Check
+
+    $ aspelllint
+    ...
+
+## Local CI
 
 Guard can automatically lint when the code changes:
 
