@@ -12,15 +12,26 @@ Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
 
 Also see quickcheck's own self-tests:
 
-    $ npm test
-
-    > quickcheck@0.0.3 test /Users/andrew/Desktop/src/node-quickcheck
+    $ grunt
+    Running "exec:test" (exec) task
+    
+    > quickcheck@0.0.4 test /home/apenneb/Desktop/src/node-quickcheck
     > mocha
-
-
-      ․․․․
-
-      4 passing (6ms)
+    
+    
+    
+      quickcheck
+        forAll
+          ✓ random numbers should not all be even 
+          ✓ random even numbers should all be even 
+          ✓ random strings should not all be valid numbers 
+          ✓ random digits should all be valid numbers 
+    
+    
+      4 passing (7ms)
+    
+    
+    Done, without errors.
 
 # HOMEPAGE
 
@@ -42,7 +53,7 @@ Also see quickcheck's own self-tests:
 
 ## Test
 
-    $ npm test
+    $ grunt test
 
 Guard can automatically run tests when the code changes:
 
@@ -54,11 +65,11 @@ Guard can automatically run tests when the code changes:
 
 Keep the code tidy:
 
-    $ npm run-script lint
+    $ grunt lint
 
 ## Spell Check
 
-    $ aspelllint
+    $ grunt aspelllint
     ...
 
 ## Local CI
