@@ -4,7 +4,9 @@ Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
 
 # INSTALL
 
-    $ npm install quickcheck
+```
+$ npm install quickcheck
+```
 
 # EXAMPLES
 
@@ -12,34 +14,36 @@ Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
 
 Also see quickcheck's own self-tests:
 
-    $ grunt
-    Running "exec:test" (exec) task
-    
-    > quickcheck@0.0.4 test /home/apenneb/Desktop/src/node-quickcheck
-    > mocha
-    
-    
-    
-      quickcheck
-        forAll
-          ✓ random numbers should not all be even 
-          ✓ random even numbers should all be even 
-          ✓ random strings should not all be valid numbers 
-          ✓ random digits should all be valid numbers 
-    
-    
-      4 passing (7ms)
-    
-    
-    Done, without errors.
+```
+$ grunt test
+Running "exec:test" (exec) task
+
+> quickcheck@0.0.4 test /Users/andrew/Desktop/src/node-quickcheck
+> mocha
+
+
+
+  quickcheck
+    forAll
+      ✓ random numbers should not all be even 
+      ✓ random even numbers should all be even 
+      ✓ random strings should not all be valid numbers 
+      ✓ random digits should all be valid numbers 
+
+
+  4 passing (8ms)
+
+
+Done, without errors.
+```
 
 # HOMEPAGE
 
-[http://www.yellosoft.us/quickcheck](http://www.yellosoft.us/quickcheck)
+http://www.yellosoft.us/quickcheck
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/) 0.10+
+* [Node.js](http://nodejs.org/) 0.8+
 
 ## Optional
 
@@ -53,32 +57,42 @@ Also see quickcheck's own self-tests:
 
 ## Test
 
-    $ grunt test
+```
+$ grunt test
+```
 
 Guard can automatically run tests when the code changes:
 
-    $ bundle
-    $ guard
-    ...
+```
+$ bundle
+$ guard
+...
+```
 
 ## Lint
 
 Keep the code tidy:
 
-    $ grunt lint
+```
+$ grunt lint
+```
 
 ## Spell Check
 
-    $ grunt aspelllint
-    ...
+```
+$ grunt aspelllint
+...
+```
 
 ## Local CI
 
 Guard can automatically lint when the code changes:
 
-    $ bundle
-    $ guard -G Guardfile-lint
-    ...
+```
+$ bundle
+$ guard -G Guardfile-lint
+...
+```
 
 ## Git Hooks
 
