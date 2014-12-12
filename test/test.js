@@ -1,6 +1,6 @@
 var
-qc = require("../quickcheck"),
-assert = require("assert");
+assert = require("assert"),
+qc = require("../lib/quickcheck");
 
 function propertyEven(x) { return x % 2 === 0; }
 
