@@ -2,12 +2,6 @@
 
 Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
 
-# INSTALL
-
-```
-$ npm install quickcheck
-```
-
 # EXAMPLES
 
 * [node-ios7crypt](https://github.com/mcandre/node-ios7crypt/blob/master/test/test.js)
@@ -40,6 +34,16 @@ Done, without errors.
 # HOMEPAGE
 
 http://www.yellosoft.us/quickcheck
+
+# NPM
+
+https://www.npmjs.com/package/quickcheck
+
+# INSTALL
+
+```
+$ npm install quickcheck
+```
 
 # REQUIREMENTS
 
