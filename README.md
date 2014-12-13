@@ -6,7 +6,7 @@ Now compatible with [mocha](http://visionmedia.github.io/mocha/)!
 
 * [node-ios7crypt](https://github.com/mcandre/node-ios7crypt/blob/master/test/test.js)
 
-Also see quickcheck's own self-tests:
+Also see quickcheck's own [self-tests](https://github.com/mcandre/node-quickcheck/blob/master/test/test.js):
 
 ```
 $ grunt test
@@ -38,12 +38,6 @@ http://www.yellosoft.us/quickcheck
 # NPM
 
 https://www.npmjs.com/package/quickcheck
-
-# INSTALL
-
-```
-$ npm install quickcheck
-```
 
 # REQUIREMENTS
 
