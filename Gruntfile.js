@@ -1,11 +1,11 @@
 module.exports = function(grunt) {
   grunt.initConfig({
-		exec: {
+    exec: {
       test: "npm test",
       jshint: "jshint .",
       lili: "bundle exec lili .",
       aspelllint: "bundle exec aspelllint"
-		}
+    }
   });
 
   grunt.loadNpmTasks("grunt-exec");
