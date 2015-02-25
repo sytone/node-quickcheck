@@ -13,8 +13,7 @@
   "main": "lib/quickcheck.js",
   "scripts": {
     "exec": "exec",
-    "test": "mocha",
-    "lint": "jshint ."
+    "test": "mocha"
   },
   "dependencies": {
     "mocha": "~1.21.4"
