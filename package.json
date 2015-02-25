@@ -12,6 +12,7 @@
   },
   "main": "lib/quickcheck.js",
   "scripts": {
+    "exec": "exec",
     "test": "mocha",
     "lint": "jshint ."
   },
