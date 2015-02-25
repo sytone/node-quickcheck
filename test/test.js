@@ -1,3 +1,5 @@
+"use strict";
+
 var
 assert = require("assert"),
 qc = require("../lib/quickcheck");
@@ -13,7 +15,7 @@ function arbEven() {
 
 function validInteger(s) {
   var i = parseInt(s, 10);
-  return typeof(i) === "number" && !isNaN(i);
+  return typeof i === "number" && !isNaN(i);
 }
 
 function arbDigits() {
