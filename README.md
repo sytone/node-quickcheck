@@ -19,10 +19,10 @@ Running "exec:test" (exec) task
 
   quickcheck
     forAll
-      ✓ random numbers should not all be even 
-      ✓ random even numbers should all be even 
-      ✓ random strings should not all be valid numbers 
-      ✓ random digits should all be valid numbers 
+      ✓ random numbers should not all be even
+      ✓ random even numbers should all be even
+      ✓ random strings should not all be valid numbers
+      ✓ random digits should all be valid numbers
 
 
   4 passing (8ms)
