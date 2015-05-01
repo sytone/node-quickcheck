@@ -1,0 +1,7 @@
+Gemfile
+Gruntfile.js
+Guardfile*
+hooks
+node_modules
+test
+.*
