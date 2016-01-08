@@ -45,7 +45,7 @@ https://www.npmjs.com/package/quickcheck
 
 ## Optional
 
-* [Ruby](https://www.ruby-lang.org/) 2+
+* [Ruby](https://www.ruby-lang.org/) 2.3+
 * [Bundler](http://bundler.io/)
 * [Cucumber](http://cukes.info/)
 * [Guard](http://guardgem.org/)
