@@ -16,9 +16,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "mocha": "~1.21.4"
+    "rho-contracts": "0.0.5"
   },
   "devDependencies": {
+    "mocha": "~1.21.4",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.13",
     "grunt-exec": "~0.4.5",
